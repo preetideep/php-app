@@ -1,4 +1,3 @@
 <?php
-echo "<h1>🚀 Deployed via AWS CodePipeline + CodeDeploy</h1>";
-echo "<p>Welcome to your PHP application!</p>";
+echo "<h1>🚀 PHP App deployed via CodeDeploy</h1>";
 ?>
