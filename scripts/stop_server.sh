@@ -1,2 +1,4 @@
 #!/bin/bash
-systemctl stop httpd
+set -e
+echo "[INFO] Stopping Apache..."
+systemctl stop httpd ||echo "[WARN] Apache may not be running. Continuing..."
